@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX App",
+            "request": "launch",
+            "mainClass": "App",
+            "vmArgs": "--module-path \"C:\\javafx\\lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED -cp bin;lib/sqlite-jdbc-3.50.2.0.jar"
+        }
+    ]
+}
