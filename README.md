@@ -1,18 +1,44 @@
-## Getting Started
+# Hotelmanagementapp
+A hotel management system desktop app build using java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+## 🚀 Features
+- Hotel search by location & availability
+- Room booking and cancellation
+- User login & registration
+- Room reviews & ratings
+- Invoice generation (PDF using iText)
+- Booking history & management
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠 Requirements
+- Java JDK 11 or above
+- JavaFX SDK (download from [Gluon](https://gluonhq.com/products/javafx/))
+- SQLite JDBC Driver
+- IDE (VS Code, IntelliJ, or Eclipse)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚙️ Setup Instructions
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/hoteleaze.git
+   cd hoteleaze
+2. Install any java ide
+3. create a launch.json file
+   ```sh
+   {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX App",
+            "request": "launch",
+            "mainClass": "App",
+            "vmArgs": "--module-path \"C:\\javafx\\lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED -cp bin;lib/sqlite-jdbc-3.50.2.0.jar"
+        }
+    ] }
+4. Run the application
