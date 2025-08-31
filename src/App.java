@@ -13,10 +13,10 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
         // UI Elements
-        Label nameLabel = new Label("Name:");
+        Label nameLabel = new Label("Name");
         TextField nameField = new TextField();
 
-        Label emailLabel = new Label("Email:");
+        Label emailLabel = new Label("Email");
         TextField emailField = new TextField();
 
         Button submitButton = new Button("Submit");
